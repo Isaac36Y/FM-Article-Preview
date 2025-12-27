@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preload" href="./design/manrope-v20-latin-500.woff2" as="font">
+  <link rel="preload" href="./design/manrope-v20-latin-700.woff2" as="font">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Article preview component</title>
+</head>
+<body>
+
+  <main class="card">
+    <img src="./images/drawers.jpg" alt="a table with drawers" class="card__img">
+    <h1 class="card__header">
+      Shift the overall look and feel by adding these wonderful
+      touches to furniture in your home
+    </h1>
+    <p class="card__par">
+      Ever been in a room and felt like something was missing? Perhaps
+      it felt slightly bare and uninviting. I’ve got some simple tips
+      to help you make any room feel complete.
+    </p>
+    <div id="feature" class="feature">
+      <div class="feature__org">
+        <img src="./images/avatar-michelle.jpg" alt="a headshot of Michelle" class="feature__img">
+        <div class="feature__info">
+          <h2 class="feature__name">Michelle Appleton</h2>
+          <p class="feature__date">28 Jun 2020</p>
+        </div>
+        <button id="share-button" class="feature__share-btn" type="button"><img src="./images/icon-share.svg" alt="" class="feature__share-icon"></button>
+      </div>
+    </div>
+    <div id="sharing" class="sharing hidden">
+      <div class="sharing__org">
+        <p class="sharing__share">SHARE</p>
+        <div class="socials">
+          <a href=""><img src="./images/icon-facebook.svg" alt="facebook icon"></a>
+          <a href=""><img src="./images/icon-twitter.svg" alt="twitter icon"></a>
+          <a href=""><img src="./images/icon-pinterest.svg" alt="pinterest icon"></a>
+        </div>
+        <button id="sharing-button" class="sharing__share-btn" type="button"><img src="./images/icon-share.svg" alt="" class="sharing__share-icon"></button> <!-- should I have two seperate classes
+         for the img and button? -->
+      </div>
+    </div>
+  </main>
+  
+ <!--  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="script.js"></script>
+</body>
+</html>
