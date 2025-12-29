@@ -13,37 +13,47 @@
 
   <main class="card">
     <img src="./images/drawers.jpg" alt="a table with drawers" class="card__img">
-    <h1 class="card__header">
-      Shift the overall look and feel by adding these wonderful
-      touches to furniture in your home
-    </h1>
-    <p class="card__par">
-      Ever been in a room and felt like something was missing? Perhaps
-      it felt slightly bare and uninviting. I’ve got some simple tips
-      to help you make any room feel complete.
-    </p>
-    <div id="feature" class="feature">
-      <div class="feature__org">
-        <img src="./images/avatar-michelle.jpg" alt="a headshot of Michelle" class="feature__img">
-        <div class="feature__info">
-          <h2 class="feature__name">Michelle Appleton</h2>
-          <p class="feature__date">28 Jun 2020</p>
+    <section class="content">
+      <h1 class="card__header"> <!-- change classes -->
+        Shift the overall look and feel by adding these wonderful
+        touches to furniture in your home
+      </h1>
+      <p class="card__par">
+        Ever been in a room and felt like something was missing? Perhaps
+        it felt slightly bare and uninviting. I’ve got some simple tips
+        to help you make any room feel complete.
+      </p>
+      <div id="feature" class="feature">
+        <div class="feature__org">
+          <img src="./images/avatar-michelle.jpg" alt="a headshot of Michelle" class="feature__img">
+          <div class="feature__info">
+            <h2 class="feature__name">Michelle Appleton</h2>
+            <p class="feature__date">28 Jun 2020</p>
+          </div>
+          <button id="share-button" class="feature__share-btn" type="button"><img src="./images/icon-share.svg" alt="" class="feature__share-icon"></button>
         </div>
-        <button id="share-button" class="feature__share-btn" type="button"><img src="./images/icon-share.svg" alt="" class="feature__share-icon"></button>
       </div>
-    </div>
-    <div id="sharing" class="sharing hidden">
-      <div class="sharing__org">
-        <p class="sharing__share">SHARE</p>
+      <div id="sharing" class="sharing hidden">
+        <div class="sharing__org">
+          <p class="sharing__share">SHARE</p>
+          <div class="socials">
+            <a href=""><img src="./images/icon-facebook.svg" alt="facebook icon"></a>
+            <a href=""><img src="./images/icon-twitter.svg" alt="twitter icon"></a>
+            <a href=""><img src="./images/icon-pinterest.svg" alt="pinterest icon"></a>
+          </div>
+          <button id="sharing-button" class="sharing__share-btn" type="button"><img src="./images/icon-share.svg" alt="" class="sharing__share-icon"></button> <!-- should I have two seperate classes
+           for the img and button? -->
+        </div>
+      </div>
+      <div id="pop-up" class="pop-up hidden">
+        <p class="share_pop-up">SHARE</p>
         <div class="socials">
-          <a href=""><img src="./images/icon-facebook.svg" alt="facebook icon"></a>
-          <a href=""><img src="./images/icon-twitter.svg" alt="twitter icon"></a>
-          <a href=""><img src="./images/icon-pinterest.svg" alt="pinterest icon"></a>
+            <a href=""><img src="./images/icon-facebook.svg" alt="facebook icon"></a>
+            <a href=""><img src="./images/icon-twitter.svg" alt="twitter icon"></a>
+            <a href=""><img src="./images/icon-pinterest.svg" alt="pinterest icon"></a>
         </div>
-        <button id="sharing-button" class="sharing__share-btn" type="button"><img src="./images/icon-share.svg" alt="" class="sharing__share-icon"></button> <!-- should I have two seperate classes
-         for the img and button? -->
       </div>
-    </div>
+    </section>
   </main>
   
  <!--  <div class="attribution">
