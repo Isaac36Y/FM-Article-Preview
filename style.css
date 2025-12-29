@@ -162,6 +162,13 @@ body {
     height: 2rem;
 }
 
+.share-wrapper {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        margin-inline-start: auto;
+    }
+
 
 .sharing__share-icon, .feature__share-icon {
     justify-self: center;
@@ -218,12 +225,14 @@ body {
         font-size: 1.3rem;
     }
 
+
     .pop-up {
         position: absolute;
         background-color: var(--dark-gray-blue);
         width: 15rem;
-        top: 49%;
-        left: 65%;
+        bottom: calc(100% + 1rem);
+        left: 25%;
+        transform: translateX(-50%);
         display: flex;
         justify-content: center;
         align-items: center;
